@@ -88,25 +88,25 @@ format = '[ $symbol]($style)'
 [os.symbols]
 Windows = "󰍲"
 Ubuntu = "󰕈"
-SUSE = ""
+SUSE = ""
 Raspbian = "󰐿"
 Mint = "󰣭"
 Macos = "󰀵"
-Manjaro = ""
+Manjaro = ""
 Linux = "󰌽"
 Gentoo = "󰣨"
 Fedora = "󰣛"
-Alpine = ""
-Amazon = ""
-Android = ""
+Alpine = ""
+Amazon = ""
+Android = ""
 Arch = "󰣇"
 Artix = "󰣇"
-EndeavourOS = ""
-CentOS = ""
+EndeavourOS = ""
+CentOS = ""
 Debian = "󰣚"
 Redhat = "󱄛"
 RedHatEnterprise = "󱄛"
-Pop = ""
+Pop = ""
 
 [username]
 show_always = true
@@ -122,9 +122,9 @@ format = "[ $path ]($style)"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
-"Downloads" = " "
+"Downloads" = " "
 "Music" = "󰝚 "
-"Pictures" = " "
+"Pictures" = " "
 "Developer" = "󰲋 "
 
 [git_branch]
@@ -138,58 +138,58 @@ format = '[ $all_status$ahead_behind ]($style)'
 style = 'bg:color_orange fg:color_bg0'
 
 [c]
-symbol = " "
+symbol = " "
 style = 'bg:color_yellow fg:color_bg0'
 format = '[ $symbol ($version) ]($style)'
 
 [cpp]
-symbol = " "
+symbol = " "
 style = 'bg:color_yellow fg:color_bg0'
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
-symbol = '󱘗'
+symbol = '󱘗 '
 style = 'bg:color_yellow fg:color_bg0'
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
-symbol = ""
+symbol = " "
 style = 'bg:color_yellow fg:color_bg0'
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
-symbol = ""
+symbol = " "
 style = 'bg:color_yellow fg:color_bg0'
 format = '[ $symbol ($version) ]($style)'
 
 [php]
-symbol = ''
+symbol = ' '
 format = '[ $symbol ($version) ]($style)'
 style = 'bg:color_blue fg:color_bg0'
 
 [java]
-symbol = ""
+symbol = " "
 format = '[ $symbol ($version) ]($style)'
 style = 'bg:color_blue fg:color_bg0'
 
 [golang]
-symbol = ""
+symbol = " "
 format = '[ $symbol ($version) ]($style)'
 style = 'bg:color_blue fg:color_bg0'
 
 [nodejs]
-symbol = ""
+symbol = " "
 format = '[ $symbol($version) ]($style)'
 style = 'bg:color_green fg:color_bg0'
 not_capable_style = 'bg:color_red fg:color_fg0'
 
 [python]
-symbol = ""
+symbol = " "
 format = '[ $symbol($version) ]($style)'
 style = 'bg:color_green fg:color_bg0'
 
 [docker_context]
-symbol = ""
+symbol = " "
 format = '[ $symbol( $context) ]($style)'
 style = 'bg:color_bg3 fg:color_bg0'
 
