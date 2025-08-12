@@ -35,10 +35,10 @@ $golang\
 [](fg:color_blue bg:color_green)\
 $nodejs\
 $python\
-[](fg:color_green bg:color_bg3)\
+[](fg:color_green bg:color_bg1)\
 $docker_context\
 $conda\
-[](fg:color_bg3 bg:color_bg1)\
+[](fg:color_bg3 bg:color_wave_blue)\
 $time\
 [▓▒░ ](fg:color_bg1)\
 $line_break$character"""
@@ -201,7 +201,7 @@ style = 'bg:color_bg3 fg:color_bg0'
 disabled = false
 time_format = "%%R"
 style = 'bg:color_wave_blue fg:color_fg0'
-format = '[  $time ]($style)'
+format = '[  $time ]($style)'
 
 [line_break]
 disabled = false
